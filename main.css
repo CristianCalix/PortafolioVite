@@ -1,0 +1,69 @@
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.foto img{
+width: 250px;
+height: 250px;
+
+
+
+}
+
+#Datos{
+    border-radius: 0px;
+    font-size: 18px;
+}
+
+#Nombre {
+    color: black;
+    text-align: center;
+  }
+  
+
+  footer {
+    background-color:black; 
+    color: #fff; /* Texto blanco */
+    text-align: center;
+    padding: 20px;
+}
+
+footer h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.contactos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.contacto {
+    font-size: 1rem;
+}
+
+.contacto a {
+    color: #1e90ff; 
+    text-decoration: none;
+}
+
+.contacto a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 600px) {
+    .contactos {
+        flex-direction: row; /* Cambia a filas en pantallas más grandes */
+        justify-content: center;
+    }
+}
